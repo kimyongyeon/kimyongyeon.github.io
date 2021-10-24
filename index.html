@@ -5,11 +5,218 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>my blog</title>
+  <title>서울시 동작구 상도동 웹개발 연구소</title>
+  <style>
+    * {
+      text-decoration: none;
+      list-style: none;
+    }
+
+    body {
+      width: 100%
+    }
+
+    .wrap {
+      width: 960px;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
+
+    header {
+      position: relative;
+      border-bottom: 2px solid black;
+    }
+
+    header h1 {}
+
+    header div#gnb {
+      position: absolute;
+      right: 20px;
+      top: 5px;
+    }
+
+    header div#gnb ul li {
+      float: left;
+      padding: 5px;
+      font-weight: 800;
+      font-size: 25px;
+
+    }
+
+    header div#util {}
+
+    section {
+      clear: both;
+      height: 85vh;
+    }
+
+    aside {
+      float: left;
+      width: 19.5%;
+      height: inherit;
+      border-right: 2px solid black;
+    }
+
+    article {
+      float: right;
+      width: 80%;
+      height: inherit;
+      overflow: auto;
+    }
+
+    article ul.card-wrap {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    article ul.card-wrap li {
+      flex: 1;
+    }
+
+    footer {
+      border-top: 2px solid black;
+      clear: both;
+      width: 960px;
+    }
+
+    footer div.footer-box {
+      margin: 0 auto;
+      width: 500px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>my blog 개발로그</h1>
+  <div class="wrap">
+    <header>
+      <h1><a href="/">웹 연구소</a></h1>
+      <div id="gnb">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/profile">Profile</a></li>
+          <li><a href="/board">Board</a></li>
+          <li><a href="/guest">Guest</a></li>
+        </ul>
+      </div>
+      <div id="util"></div>
+    </header>
+    <section>
+      <aside>
+        <h1>사이드메뉴</h1>
+      </aside>
+      <article>
+
+        <h1>콘텐츠 화면</h1>
+
+        <ul class="card-wrap">
+          <li>
+            <div class="card">
+              <h3>카드 제목</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>타이틀</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>타이틀</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>article</h3>
+              <img src="https://via.placeholder.com/150" alt="">
+              <h3>타이틀</h3>
+              <p>설명.... </p>
+            </div>
+          </li>
+        </ul>
+
+      </article>
+    </section>
+    <footer>
+      <div class="footer-box">
+        <address>
+          서울시 동작구 상도동 상도동 웹개발 연구소 @copyright
+        </address>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
